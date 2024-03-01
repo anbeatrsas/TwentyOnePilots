@@ -1,0 +1,153 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    font-family: "Martian Mono", monospace;
+
+}
+
+html{
+
+    height: 500vh; /*altura bem grande para dar efeito de rolagem*/
+
+}
+
+#container{
+
+    max-width: 1280px;
+    margin: auto; /*centraliza os elementos*/
+
+}
+
+#flex{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /*facilidade para manipular os elementos*/
+
+}
+
+header{
+
+    width: 100%;
+    padding: 20px 4%;
+    top: 0; /*faz com que zere margem no top*/
+    left: 0;
+    /*position: fixed; posicao fixa que no qual fica fixa no topo do site*/
+    position: absolute;
+
+}
+
+li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px; /*em cima e baixo terá 0 e dos lados 40*/
+
+}
+
+li a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+li a:hover{
+
+    border-bottom: 3px solid white;/*borda embaixo*/
+    transform: scale(1.10);
+    transition: 0.1s;
+
+}
+
+section{
+    color: white;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    
+}
+
+
+h1{
+    font-size: 70px;
+    letter-spacing: 12px;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+
+#sectionBotao{
+
+    padding: 15px 120px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Martian Mono", monospace;
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+
+#sectionBotao:hover{
+
+    background-color: rgba(250, 10, 10, 0.712);
+    color: white;
+
+    transform: scale(1.05);
+    transition: 0.2s;
+
+}
+
+
+#Sign{
+
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Martian Mono", monospace;
+
+    cursor: pointer;
+
+}
+
+
+#Sign:hover{
+
+    background-color: rgba(250, 10, 10, 0.884);
+    color: white;
+
+    transform: scale(1.05);
+    transition: 0.2s;
+
+
+}
+
+
+#banner{
+
+    height: 100vh;/*tomar todo o tamanho da tela*/
+    background-image: url(/img/banner.webp);
+    background-position: center;
+
+}
+
+
+
